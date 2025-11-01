@@ -1,4 +1,3 @@
-```markdown
 # tidy-pydy-tuesday
 
 A collection of **Python and R notebooks** exploring weekly [TidyTuesday](https://github.com/rfordatascience/tidytuesday) datasets. Each notebook focuses on **data cleaning, analysis, and visualization**, helping build practical data skills while documenting insights and trends.
@@ -81,5 +80,3 @@ Please fork the repo, make your changes, and submit a pull request.
 ## 📜 License
 
 This repository is open-source. Feel free to use and adapt the notebooks for learning and portfolio purposes.
-
-```
