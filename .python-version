@@ -1,0 +1,6 @@
+.history/
+*.zip
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+.python-version
