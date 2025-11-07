@@ -14,4 +14,5 @@ dependencies = [
     "scipy>=1.16.3",
     "seaborn>=0.13.2",
     "simpledbf>=0.2.6",
+    "xgboost>=3.1.1",
 ]
