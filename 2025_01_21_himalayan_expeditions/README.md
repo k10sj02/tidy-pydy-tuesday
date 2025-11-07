@@ -1,3 +1,19 @@
+### Project Summary
+
+This project explores predicting rare events in Himalayan expeditions — specifically, deaths during climbs. The dataset I used is small (about 1,030 expeditions over 4 years) and highly imbalanced (only 6 deaths), which makes modeling tricky. I tried different machine learning models, but their accuracy is limited because the minority class is so small. Expanding to the full historical dataset (1950–present) would likely improve results.
+
+In addition to modeling, I explored several key questions about the expeditions, including:
+
+* How climbing status (PSTATUS) varies across mountain ranges (HIMAL_FACTOR)
+* Which mountain ranges have the highest average peak height (HEIGHTM)
+* How peak heights differ for open versus closed peaks (OPEN)
+* Which climbing routes (ROUTE1–4) have the highest success rates (SUCCESS1–4)
+* The effect of supplemental oxygen (O2USED, O2NONE) on summit success
+* How often bad weather (TERMREASON = 4) vs. technical difficulty (TERMREASON = 10) causes expedition termination
+* Whether expeditions with no hired personnel (NOHIRED) have higher or lower death rates
+
+I’ve also included a section of further reading on handling small data and rare events in ML, which provides practical guidance and examples for improving model design and evaluation.
+
 ### 📚 Further Reading — Dealing with Small Data & Rare‑Event Predictions
 
 The models in this project face challenges due to small sample sizes and rare events, which make accurate prediction difficult. The following resources provide further reading on strategies for handling small datasets, imbalanced classes, and rare-event modeling in machine learning. They offer practical guidance and examples that can help improve model design and evaluation
