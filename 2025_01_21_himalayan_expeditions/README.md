@@ -22,7 +22,7 @@ In addition to modeling, I explored several key questions about the expeditions,
 
 * The effect of supplemental oxygen (O2USED, O2NONE) on summit success
 
-&Effect of supplemental oxygen on summit success: Expeditions using oxygen have a 96% success rate versus 60% for those without.*
+*Expeditions using oxygen have a 96% success rate versus 60% for those without.*
 
 * How often bad weather (TERMREASON = 4) vs. technical difficulty (TERMREASON = 10) causes expedition termination?
 
