@@ -4,13 +4,33 @@ This project explores predicting rare events in Himalayan expeditions — specif
 
 In addition to modeling, I explored several key questions about the expeditions, including:
 
-* How climbing status (PSTATUS) varies across mountain ranges (HIMAL_FACTOR)
-* Which mountain ranges have the highest average peak height (HEIGHTM)
-* How peak heights differ for open versus closed peaks (OPEN)
-* Which climbing routes (ROUTE1–4) have the highest success rates (SUCCESS1–4)
+* How climbing status (PSTATUS) varies across mountain ranges (HIMAL_FACTOR)? 
+
+Climbing status (PSTATUS) across mountain ranges: Most Himalayan ranges have a mix of statuses, but the majority of peaks are successfully summited, with variations reflecting range difficulty.
+
+* Which mountain ranges have the highest average peak height (HEIGHTM)?
+
+Mountain ranges with highest average peak height: Kangchenjunga/Simhalila has the highest mean (7,237 m) and median (7,328 m) peak heights.
+
+* How peak heights differ for open versus closed peaks (OPEN)?
+
+Peak heights for open vs closed peaks: Most peaks between 6,000–6,999 m are open, while higher peaks (>7,000 m) are more often closed.
+
+* Which climbing routes (ROUTE1–4) have the highest success rates (SUCCESS1–4)?
+
+Routes with highest success rates: ROUTE1 dominates with 737 successful climbs; ROUTE2 has 34, and ROUTE3–4 have none.
+
 * The effect of supplemental oxygen (O2USED, O2NONE) on summit success
-* How often bad weather (TERMREASON = 4) vs. technical difficulty (TERMREASON = 10) causes expedition termination
-* Whether expeditions with no hired personnel (NOHIRED) have higher or lower death rates
+
+Effect of supplemental oxygen on summit success: Expeditions using oxygen have a 96% success rate versus 60% for those without.
+
+* How often bad weather (TERMREASON = 4) vs. technical difficulty (TERMREASON = 10) causes expedition termination?
+
+Bad weather causes 8.7% of terminations, while technical difficulty causes only 1.1%.
+
+* Whether expeditions with no hired personnel (NOHIRED) have higher or lower death rates?
+
+Death rates and hiring personnel: Expeditions without hired personnel have a 4.0% death rate, nearly identical to 4.1% for those with hired staff.
 
 ### Model Findings
 
