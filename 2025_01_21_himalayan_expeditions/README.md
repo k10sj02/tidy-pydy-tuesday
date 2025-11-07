@@ -12,7 +12,17 @@ In addition to modeling, I explored several key questions about the expeditions,
 * How often bad weather (TERMREASON = 4) vs. technical difficulty (TERMREASON = 10) causes expedition termination
 * Whether expeditions with no hired personnel (NOHIRED) have higher or lower death rates
 
-I’ve also included a section of further reading on handling small data and rare events in ML, which provides practical guidance and examples for improving model design and evaluation.
+### Model Findings
+
+Dataset: ~1,030 expeditions, 6 deaths (extremely imbalanced).
+
+Random Forest: Excellent at predicting no deaths (majority class), catches most actual deaths (67% recall) but generates many false positives (17% precision).
+
+Logistic Regression: Detects most deaths (67% recall) but very low precision (6%); overall accuracy drops due to imbalance.
+
+XGBoost: Similar to Random Forest — good recall for deaths (~67%) but low precision (~9%), overpredicts rare events.
+
+Bottom line: All models handle the majority class well, detect some deaths, but are unreliable at pinpointing which expeditions will have fatalities. Expanding to the full Himalaya dataset (1950–present) would likely improve performance.
 
 ### 📚 Further Reading — Dealing with Small Data & Rare‑Event Predictions
 
