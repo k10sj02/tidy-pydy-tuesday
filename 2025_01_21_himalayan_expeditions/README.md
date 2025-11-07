@@ -1,5 +1,7 @@
 ### 📚 Further Reading — Dealing with Small Data & Rare‑Event Predictions
 
+The models in this project face challenges due to small sample sizes and rare events, which make accurate prediction difficult. The following resources provide further reading on strategies for handling small datasets, imbalanced classes, and rare-event modeling in machine learning. They offer practical guidance and examples that can help improve model design and evaluation
+
 * *“What to Do with Small Data”* — Medium article by Rants on Machine Learning: [https://medium.com/rants-on-machine-learning/what-to-do-with-small-data-d253254d1a89](https://medium.com/rants-on-machine-learning/what-to-do-with-small-data-d253254d1a89)
 * *“Modeling Rare Event Probability — An Advanced Machine Learning Perspective”* — Medium article by Rahul G: [https://medium.com/@rahulg.isme2325/modeling-rare-event-probability-an-advanced-machine-learning-perspective-2280d5b364c7](https://medium.com/@rahulg.isme2325/modeling-rare-event-probability-an-advanced-machine-learning-perspective-2280d5b364c7)
 * Weiss, G., Provost, F.: *“Learning when training data are costly”* (AAAI Workshop paper) — [https://storm.cis.fordham.edu/gweiss/papers/aaai00ws.pdf](https://storm.cis.fordham.edu/gweiss/papers/aaai00ws.pdf)
