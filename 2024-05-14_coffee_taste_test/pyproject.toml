@@ -1,0 +1,11 @@
+[project]
+name = "2024-05-14-coffee-taste-test"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "ipykernel>=7.1.0",
+    "pandas>=2.3.3",
+    "pyjanitor>=0.32.1",
+]
